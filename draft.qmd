@@ -2,16 +2,90 @@
 title: "Title is here"
 subtitle: "Subtitle is here too!"
 format:
-    pdf: default
+    #pdf: default
     html: 
       self-contained: true
+      comments: 
+        hypothesis: 
+          theme: clean
       grid: 
-        margin-width: 350px
+        margin-width: 250px
 bibliography: ref.bib
 ---
 
-# Introduction
+# Intro 
 
-This document demonstrates the use of a number of advanced page layout features to produce an attractive and usable document inspired by the Tufte handout style and the use of Tufte's styles in RMarkdown documents [@xie2018]. The Tufte handout style is a style that Edward Tufte uses in his books and handouts. Tufte's style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography. Quarto[^1] supports most of the layout techniques that are used in the Tufte handout style for both HTML and LaTeX/PDF output.
+::: {.callout-note appearance="simple"}
 
-[^1]: To learn more, you can read more about [Quarto](https://www.quarto.org) or visit [Quarto's Github repository](https://www.github.com/quarto-dev/quarto-cli).
+## Just a disclaimer
+
+This article is not a diss towards Data Science or any related field.
+
+:::
+
+This is not a comprehensive review on Data Science (DS), for a review refer to [@donoho201750]. Rather, I wanted to articulate my views on the issue with DS and related fields. Prior studying my Masters in Data Science, my only exposure to DS was from NFL Twitter[^1] and [Open Source Football](https://www.opensourcefootball.com/). This created an expectation of the level of analysis that was the norm in DS, which was not too daunting given my background in Psychology. The part of Psychology that I enjoyed the most was the research side of it, which drew me towards DS given what I understood it to be from my limited knowledge of the field. However, over time I began to understand that this was considered the higher end of quality. 
+
+---
+
+[^1]: NFL Twitter is a common term used for NFL related analysis that is shared on Twitter.  
+
+# Hi
+
+So typically when someone becomes an analyst, they come from one of two paths
+
+- Quantitative background: this can be from an engineering or computer science field
+- Qualitative background: this is more relating to social sciences like in my case, psychology
+
+> Those that come from a statistics background are kind of a unicorn since they cover both sides. Honestly, I have not come across many people recently that have or are studying a degree specifically in statistics.
+
+# Data Science
+
+
+
+Like anything popular, there exist many competing definitions of what DS is, which can vary on domain and context. In general, it can be broken down into academia vs industry. 
+
+- Academia: DS is no different from what you would expect from a statistician. 
+- Industry: DS is a trendy word that can refer to any specific task that relates to data.
+
+## Industry
+
+Because of the generic name of DS, it is easy to misunderstand what it entails. It does not help that many definitions are quite vague. It reminds me of [Barbie (2023)](https://www.imdb.com/title/tt1517268/) where Ken refers to his job as `beach`. While in the context of the movie it is funny because it seems silly, that is quite similar to what how we treat the word `data`. 
+
+- this creates limitations since it creates a gap between the two sides of DS
+
+## Academia
+
+DS in academia is slightly different since typically
+
+## Next
+
+interdisciplinary [@donoho201750]
+
+Hello [^2]
+
+[^2]: List some here?
+
+## Hi
+
+Paths to DS?
+
+- Computer Science
+- Statistics
+- Other?
+
+> Note that this will be a generalisation
+
+To illustrate the different schools of thought, I will use sport as an example. In our scenario imagine that you are responsible for assisting in decision making for an NFL team. We can view this as 
+
+- Purely analytical: looks at what the numbers say without knowing about the sport [^3]
+- Purely gut: been involved in the game for a long time and then use your intuition for decisions
+- 
+
+
+
+[^3]: This obviously has limitations, but we will discusss this further down.
+
+# References
+
+::: {#refs}
+:::
